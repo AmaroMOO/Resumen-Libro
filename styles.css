@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    padding: 2rem;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #002b80;
+    margin-bottom: 0.3rem;
+  }
+  
+  .subtitulo {
+    font-size: 1.4rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .card {
+    background: white;
+    padding: 2rem 1rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #002b80;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+  }
+  
+  .card span {
+    display: block;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    color: #666;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Distintos colores por capítulo */
+  .card1 { background: #e3f2fd; }
+  .card2 { background: #fce4ec; }
+  .card3 { background: #e8f5e9; }
+  .card4 { background: #fff8e1; }
+  .card5 { background: #ede7f6; }
+  .card6 { background: #f3e5f5; }
+  .card7 { background: #fbe9e7; }
+  
